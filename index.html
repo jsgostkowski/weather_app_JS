@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center_div">
+        <div class="container">
+            <form class="form">
+                <div clas="first_form">
+                    <input type="text" placeholder="Wpisz miasto" class="city">
+                    <button class="fetch" type="submit">Szukaj</button>
+                </div>
+            </form>
+            <p class="city_name"></p>
+            <div class="wrapper">
+                <img src="" alt="" class="img">
+            </div>
+            <div class="under_icon">
+                <h4 class="description"></h4>
+                <h1 class="temp"></h1>
+            </div>
+            <div class='param'>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='orange-column'>
+                            Ciśnienie:
+                            <p class="param_1"></p>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='orange-column'>
+                            Odczuwalna temperatura:
+                            <p class="param_2"></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='orange-column'>
+                            Prędkość wiatru:
+                            <p class="param_3"></p>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='orange-column'>
+                            Wilgotność:
+                            <p class="param_4"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
